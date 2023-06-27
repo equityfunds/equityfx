@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>Dashboard</title>
+<link rel="icon" type="image/x-icon" href="logo.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+background-color: white;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+#mySidebar {
+  position: absolute;
+  : 0px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.btn-group button {
+    background-color: #04AA6D; 
+border: 1px solid green;
+color: white;
+padding:10px 24px;
+cursor: pointer;
+float: left;
+}
+
+.btn-group:
+   content: ''';
+   clear: both
+   display: table;
+}
+
+.btn-group: {
+border-right: none;
+}
+
+.btn-group button: 
+  background-color: #3e8e41;
+}
+
+</style>
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\w3.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\googleapiroboto.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\googleapimontserrat.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\all.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\fall.min.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\brands.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\brands.min.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\fontawesome.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\fontawesome.min.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\regular.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\regular.min.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\solid.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\solid.min.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\svg-with-js.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\svg-with-js.min.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\v4-shims.css">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\fv4-shims.min.css">
+<style>
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\all.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\all.min.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\brands.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\brands.min.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\conflict-detection.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\conflict-detection.min.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\fontawesome.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\fontawesome.min.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\regular.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\regular.min.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\solid.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\solid.min.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\v4-shims.js">
+<link rel="stylesheet" href="C:\Users\YUNG FX PABLO\Desktop\Website code\v4-shims.min.js">
+<script>
+
+</script>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+    </head>
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>EQUITY FUNDS X</b></h3>
+   <img src="logo.png" alt="logo.png" width="70" height="60">
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a href="withdraw.html" class="w3-bar-item w3-button">Withdraw</a>
+    <a href="#track" class="w3-bar-item w3-button">Track</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-white w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">EQUITY FUNDS X</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left" style="color:black;"><b>Thabiso Pitseng - Individual</b></p>
+  </header>
+  
+   <!-- The Tour Section -->
+  <div class="w3-white" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center"><b>Welcome Back Home, Trader! </h2></b>
+<h4 class="w3-wide w3-center" style="color: green;" ><b> Take Control of Your Capital </b></h4>
+<div class="btn-group w3-center">
+<a href="#track" button type="button" class="w3-button w3-blue">Track</a></button>
+<a href="withdraw.html" button type="button" class="w3-button w3-green">Withdraw</a></button>
+<p> <b>You Trade, We Pay You!</b></p>
+</div>
+</div>
+<hr>
+<div>
+<hr>
+</div>
+<div class="w3-container">
+   <h5>My Accounts</h5>
+    <ul class="w3-ul w3-card-4 w3-white">
+        <li class="w3-padding-16">
+           <img src="logo.png" class="w3-left w3-circle w3-margin-right" style="width:35px"
+           <span class="w3-xlarge">$100,000 Evaluation</span>
+<br>
+           </li>
+           </ul>
+           </div>
+            <hr>
+<div>
+<hr>
+</div>
+<hr>
+<div class="w3-container" id="track">
+     <h5><b>Thabiso, Track Stats</b></h5>
+</div>
+</div>
+  <p>Profit % - EFX PnL</p>
+      <div class="w3-grey">
+          <div class="w3-container w3-center w3-padding w3-yellow" style="width:1%"> +1%
+</div>
+</div>
+  <p>Bounce Rate - Drawdown(Recovery)</p>
+      <div class="w3-grey">
+          <div class="w3-container w3-center w3-padding w3-blue" style="width:3%"> -3% </div>
+</div>
+<hr>
+
+<div class="w3-center">
+<a href="withdraw.html" button type="button" class="w3-button w3-green">Withdraw Funds</a></button>
+</div>
+
+<hr>
+
+<div class="w3-container">
+     <h5>Countries Tracker</h5>
+     <table class="w3-table w3-stiped w3-bordered w3-border w3-hoverable w3-white">
+<tr>
+  <td>United States</td>
+  <td>38.2%</td>
+</tr>
+<tr>
+  <td>UK</td>
+  <td>25.7%</td>
+</tr>
+<tr>
+  <td>South Africa</td>
+  <td>18.1%</td>
+</tr>
+<tr>
+  <td>Unknown</td>
+  <td>12.6%</td>
+</tr>
+<tr>
+  <td>India</td>
+  <td>9.3%</td>
+</tr>
+<tr>
+  <td>Nigeria</td>
+  <td>7.2%</td>
+</tr>
+</table><br>
+</div>
+<hr>
+
+
+
+  <div class="w3-white w3-center w3-padding-24"><b>Equity Funds X - EFX</b>
+
+  <!-- End page content -->
+</div>
+
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+</script>
+
+</body>
+</html>
